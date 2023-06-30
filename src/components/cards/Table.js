@@ -10,7 +10,7 @@ const Table2 = () => {
 
   const changeImg = (images, fig) => {
     images?.length >= fig ? setFig(fig + 1) : setFig(0);
-    console.log(images, "fig", fig);
+    // console.log(images, "fig", fig);
   };
 
   useEffect(() => {
